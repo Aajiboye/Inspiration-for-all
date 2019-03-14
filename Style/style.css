@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+*{box-sizing:border-box;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+	
+}
+#shift{margin-top:auto;;}
+body
+{
+width:95%;
+margin:0 auto;
+}
+.header
+{
+background-color:white;
+margin:0px auto 5px auto;
+width:95%;
+position:fixed;
+top:0px;
+
+	}
+	.sitetitle 
+	{
+		width:100%;
+		padding:4px 10px;
+		margin: O auto;
+	background-image:url(../pictures/title.fw.png);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+		}
+
+	
+.navbar 
+	{
+		margin:0 auto;
+		width:100%;
+		height:auto;
+		background-color:rgba(248,188,11,0.93);
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	}
+
+	ul {
+		list-style-type:none;
+		padding:0;
+		overflow:hidden;
+		}
+	li
+	{
+		float:right;
+		font-weight:bold;
+		}
+		
+		 li a{
+		display:block;
+		padding:8px;
+		text-decoration:none;
+		color:rgba(0,0,0,1.00);
+		text-align:center;
+		}
+ li a:hover{
+	background-color:rgba(245,115,115,1.00);
+	color:rgba(0,0,0,1.00);
+}
+li a:visited
+{background-color:#F8F8F8;}
+	
+	.banner
+	{
+		border:thin;
+		width:80%;
+		margin: 10px auto;
+		height: 300px;
+		background-color:rgba(187,187,187,1.00);
+	}
+		
+			.bookrow
+			{
+				width:100%;
+				height:200px;
+				border-bottom:inset;
+			}
+			.bookcoln1
+			{	
+			float:left;
+			width:30%;
+			height:200px;
+			background-color:none;
+			}
+			.bookcoln2
+			{	
+			float:left;
+			width:70%;
+			height:200px;
+			}
+			.bookcoln1 img 
+			{max-width:90%;
+			margin:6px auto;
+			max-height:90%;
+					}
+			
+				
+				p
+				{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+				color:rgba(64,64,64,1.00);
+				font-size:16px;
+				text-align:justify;
+				background-color:rgba(248,248,248,1.00);
+				padding:10px;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+				}
+			.footer
+			{
+		text-align:center;
+		margin: 10px auto;
+		background-color:rgba(255,115,115,1.00);	
+		box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+			
+		}
+		#shift {margin-top:200px;}
+	.col-3 p{
+		font-size:10px;
+	}
+		.col-3 h1{
+		font-size:18px;
+		text-align:center;
+		text-transform:uppercase;
+	}
+
+				

@@ -1,2 +1,1 @@
-# inspiration-for-all
-First Project 
+# Inspiration-for-all
